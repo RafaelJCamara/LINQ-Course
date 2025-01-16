@@ -4,6 +4,8 @@
 
 //AnyLinq.CallAny();
 
-AllLinq.CallAll();
+//AllLinq.CallAll();
+
+ContainsLinq.CallContains();
 
 #endregion
