@@ -1,11 +1,18 @@
 ﻿using LinqCourse.CollectionEvaluators;
+using LinqCourse.Filtering;
 
-# region Collection Evaluators
+# region CollectionEvaluators
 
 //AnyLinq.CallAny();
 
 //AllLinq.CallAll();
 
-ContainsLinq.CallContains();
+//ContainsLinq.CallContains();
+
+#endregion
+
+# region Filtering
+
+WhereLinq.CallWhere();
 
 #endregion
