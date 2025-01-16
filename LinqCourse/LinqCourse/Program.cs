@@ -2,6 +2,8 @@
 
 # region Collection Evaluators
 
-AnyLinq.CallAny();
+//AnyLinq.CallAny();
+
+AllLinq.CallAll();
 
 #endregion
