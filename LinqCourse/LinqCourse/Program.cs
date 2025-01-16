@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using LinqCourse.CollectionEvaluators;
 
-Console.WriteLine("Hello, World!");
+# region Collection Evaluators
+
+AnyLinq.CallAny();
+
+#endregion
