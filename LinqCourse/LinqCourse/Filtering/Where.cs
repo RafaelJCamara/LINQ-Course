@@ -14,16 +14,16 @@ public static class WhereLinq
     
     private static void CallWhereSimple()
     {
-        var whereNumberGreaterThan3 = Collections.SimpleCollection.Where(number => number > 3);
+        var elementsBiggerThan3 = Collections.SimpleCollection.Where(number => number > 3);
         Console.WriteLine("Where simple example 1");
-        foreach (var num in whereNumberGreaterThan3)
+        foreach (var num in elementsBiggerThan3)
         {
             Console.WriteLine(num);
         }
         
-        var whereNumberGreaterThan10 = Collections.SimpleCollection.Where(number => number > 10);
+        var elementsBiggerThan10 = Collections.SimpleCollection.Where(number => number > 10);
         Console.WriteLine("Where simple example 2");
-        foreach (var num in whereNumberGreaterThan10)
+        foreach (var num in elementsBiggerThan10)
         {
             Console.WriteLine(num);
         }
@@ -31,7 +31,12 @@ public static class WhereLinq
     
     private static void CallWhereComplex()
     {
-        // 1 - Filter for people that have an age greater than 30
-        // 2 - Filter people that have more than one interest 
+        var peopleWithAgeBiggerThan30 = Collections.ComplexCollection.Where(person => person.Age > 30);
+        Console.WriteLine("Where complex example 1");
+        foreach (var person in peopleWithAgeBiggerThan30)
+        {
+            Console.WriteLine(person.Name);
+            Console.WriteLine(person.Age);
+        }
     }
 }
