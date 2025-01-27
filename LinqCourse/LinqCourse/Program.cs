@@ -22,6 +22,8 @@ using LinqCourse.Projection;
 
 //SelectLinq.CallSelect();
 
-SelectManyLinq.CallSelectMany();
+//SelectManyLinq.CallSelectMany();
+
+OfTypeLinq.CallOfType();
 
 #endregion
