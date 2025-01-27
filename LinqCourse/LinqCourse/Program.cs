@@ -20,6 +20,8 @@ using LinqCourse.Projection;
 
 # region Projection
 
-SelectLinq.CallSelect();
+//SelectLinq.CallSelect();
+
+SelectManyLinq.CallSelectMany();
 
 #endregion
