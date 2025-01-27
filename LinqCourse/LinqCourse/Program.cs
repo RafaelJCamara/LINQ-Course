@@ -1,5 +1,6 @@
 ﻿using LinqCourse.CollectionEvaluators;
 using LinqCourse.Filtering;
+using LinqCourse.Projection;
 
 # region CollectionEvaluators
 
@@ -13,6 +14,12 @@ using LinqCourse.Filtering;
 
 # region Filtering
 
-WhereLinq.CallWhere();
+//WhereLinq.CallWhere();
+
+#endregion
+
+# region Projection
+
+SelectLinq.CallSelect();
 
 #endregion
