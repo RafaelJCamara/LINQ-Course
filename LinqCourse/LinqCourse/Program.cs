@@ -33,6 +33,8 @@ using LinqCourse.Sorting;
 
 //OrderByLinq.CallOrderBy();
 
-OrderByDescendingLinq.CallOrderByDescending();
+//OrderByDescendingLinq.CallOrderByDescending();
+
+ThenByDescendingLinq.CallThenByDescending();
 
 #endregion

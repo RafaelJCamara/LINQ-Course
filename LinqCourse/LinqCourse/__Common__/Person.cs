@@ -8,7 +8,7 @@ public class Person : IComparable<Person>
 
     public int CompareTo(Person? other)
     {
-        return - Age.CompareTo(other?.Age);
+        return Age.CompareTo(other?.Age);
     }
 
     public override bool Equals(object? obj)
