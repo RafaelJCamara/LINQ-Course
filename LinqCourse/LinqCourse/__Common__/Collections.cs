@@ -4,6 +4,8 @@ public static class Collections
 {
     public static int[] SimpleCollection = [1, 2, 3, 4, 5];
     
+    public static int[] UnorderedSimpleCollection = [3, 2, 1, 5, 4];
+
     public static Person[] ComplexCollection =
     [
         new Person()

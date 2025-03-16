@@ -1,6 +1,7 @@
 ﻿using LinqCourse.CollectionEvaluators;
 using LinqCourse.Filtering;
 using LinqCourse.Projection;
+using LinqCourse.Sorting;
 
 # region CollectionEvaluators
 
@@ -24,6 +25,12 @@ using LinqCourse.Projection;
 
 //SelectManyLinq.CallSelectMany();
 
-OfTypeLinq.CallOfType();
+//OfTypeLinq.CallOfType();
+
+#endregion
+
+# region Sorting
+
+OrderByLinq.CallOrderBy();
 
 #endregion
