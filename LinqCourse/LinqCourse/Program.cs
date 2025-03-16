@@ -31,6 +31,8 @@ using LinqCourse.Sorting;
 
 # region Sorting
 
-OrderByLinq.CallOrderBy();
+//OrderByLinq.CallOrderBy();
+
+OrderByDescendingLinq.CallOrderByDescending();
 
 #endregion
