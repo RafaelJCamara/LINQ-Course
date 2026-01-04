@@ -1,9 +1,10 @@
-﻿using LinqCourse.CollectionEvaluators;
+﻿using LinqCourse.Aggregation;
+using LinqCourse.CollectionEvaluators;
 using LinqCourse.Filtering;
 using LinqCourse.Projection;
 using LinqCourse.Sorting;
 
-# region CollectionEvaluators
+#region CollectionEvaluators
 
 //AnyLinq.CallAny();
 
@@ -13,13 +14,13 @@ using LinqCourse.Sorting;
 
 #endregion
 
-# region Filtering
+#region Filtering
 
 //WhereLinq.CallWhere();
 
 #endregion
 
-# region Projection
+#region Projection
 
 //SelectLinq.CallSelect();
 
@@ -29,12 +30,18 @@ using LinqCourse.Sorting;
 
 #endregion
 
-# region Sorting
+#region Sorting
 
 //OrderByLinq.CallOrderBy();
 
 //OrderByDescendingLinq.CallOrderByDescending();
 
-ThenByDescendingLinq.CallThenByDescending();
+//ThenByDescendingLinq.CallThenByDescending();
+
+#endregion
+
+#region Aggregation
+
+Count.CallCount();
 
 #endregion
