@@ -44,6 +44,8 @@ using LinqCourse.Sorting;
 
 //Count.CallCount();
 
-Sum.CallSum();
+//Sum.CallSum();
+
+Average.CallAverage();
 
 #endregion
