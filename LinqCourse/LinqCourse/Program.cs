@@ -48,6 +48,8 @@ using LinqCourse.Sorting;
 
 //Average.CallAverage();
 
-Min.CallMin();
+//Min.CallMin();
+
+Max.CallMax();
 
 #endregion
